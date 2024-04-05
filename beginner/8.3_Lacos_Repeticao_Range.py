@@ -28,9 +28,12 @@ carros = ('SW4', 'Polo', 'Hilux', 'Uno', 'Corolla', 'Civic', 'Fusca')
 
 for carro in carros:
     if carro == 'Corolla': 
-        break
+        continue
     print(carro) 
     
 
 # nesse caso o CONTINUE faz com que o if seja ignorado
 # o BREAK faz a parada do laço, não deixa executar o restante.
+
+
+#2:39:30
